@@ -7,7 +7,11 @@ public class Student {
 		System.out.println("hii helooo how are u");
 	
 		  System.out.println("hii helooo this is not destiny thhis is our future");
-
+		  ////////////////////////////
+		  /////
+		  ////
+		  ///
+		  System.out.println("find your determination and dont change ur attitude");
 	}
 
 }
