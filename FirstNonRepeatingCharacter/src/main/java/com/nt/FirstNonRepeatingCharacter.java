@@ -18,7 +18,7 @@ public class FirstNonRepeatingCharacter {
 		SimpleLayout layout=null;
 		ConsoleAppender appender=null;
 		
-		//create Lqyout
+		//create Lqyout///////
 		layout=new SimpleLayout();
 		//create appender
 		appender=new ConsoleAppender(layout);
