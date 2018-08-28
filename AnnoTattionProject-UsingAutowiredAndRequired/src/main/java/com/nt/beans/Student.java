@@ -1,11 +1,6 @@
 package com.nt.beans;
 
 
-
-
-
-
-
 import java.util.Date;
 
 import org.springframework.beans.factory.annotation.Autowired;
