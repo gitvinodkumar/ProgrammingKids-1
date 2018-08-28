@@ -31,7 +31,7 @@ public class Student {
 	public void setId(int id) {
 		this.id = id;
 	}
-
+/////////
 	
 	/*public void setAdd(Address add) {
 		this.add = add;
