@@ -4,4 +4,10 @@ public class Course {
 	
 	private String collageName; 
 /////////////////////////////
+	
+	///hjajkhasjdhajsdhjk
+	//askdhashd
+	//asudahdkash
+	
+	
 }
