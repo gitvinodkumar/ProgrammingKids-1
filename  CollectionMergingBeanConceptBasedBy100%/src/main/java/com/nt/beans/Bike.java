@@ -3,15 +3,18 @@ package com.nt.beans;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.List;
-import java.util.TreeSet;
+
+import org.springframework.beans.factory.annotation.Value;
 
 public class Bike {
 	
 	
 	
-	
+	@Value("vinod")
 	  public List<String> properties;
+	@Value("hari")
 	  public HashSet<String>numbers;
+	@Value("89999")
 	public LinkedHashSet<Integer>phno;
 ///////////////////
 	
@@ -19,17 +22,8 @@ public class Bike {
 	public String toString() {
 		return "Bike [ properties=" + properties + "]";
 	}
-
-	public void setProperties(List<String> properties) {
-		this.properties = properties;
-	}
-
-	public void setNumbers(HashSet<String> numbers) {
-		this.numbers = numbers;
-	}
-
-	public void setPhno(LinkedHashSet<Integer> phno) {
-		this.phno = phno;
-	}
+ 
+	
+	/**/
 
 }

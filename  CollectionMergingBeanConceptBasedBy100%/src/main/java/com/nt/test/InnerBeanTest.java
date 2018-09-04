@@ -1,10 +1,11 @@
 package com.nt.test;
 
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import com.nt.beans.Bike;
 import com.nt.beans.Pulsor;
+import com.nt.cnfgs.AppConfig;
 
 public class InnerBeanTest {
 
@@ -13,7 +14,7 @@ public class InnerBeanTest {
 		ApplicationContext ctx=null;
 		
 		//create ioc container
-		ctx=new ClassPathXmlApplicationContext("com/nt/cnfgs/applicationConext.xml");
+		ctx=new AnnotationConfigApplicationContext(AppConfig.class);
 		
 		//get bean method from 
 		Bike b=ctx.getBean("pulsor",Pulsor.class);
