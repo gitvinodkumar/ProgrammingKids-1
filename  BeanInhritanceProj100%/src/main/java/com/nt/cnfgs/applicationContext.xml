@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<bean id="book" class="com.nt.beans.Books" >
+
+<property name="book1" value="pysicc"/>
+<property name="book2" value="chemistry"/>
+</bean>
+
+<bean id="boo" class="com.nt.beans.Books" parent="book">
+
+<property name="book2" value="ggggg"/>
+</bean>
+
+</beans>
