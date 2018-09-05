@@ -6,7 +6,9 @@ import java.util.LinkedHashSet;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
+@Component("pulsor")
 public class Pulsor extends Bike {
 	
 	
