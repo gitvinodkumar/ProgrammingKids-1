@@ -1,0 +1,40 @@
+package com.nt.switchh;
+
+public class PrintsH {
+	
+	
+	public static void main(String[] args) {
+		
+		for(int i=0;i<=9;i++){
+			
+		    if(i==5){
+		    	////
+		    	
+		    	for(int j=0;j<=5;j++){
+		    		if(j==0||j==5){
+		    			System.out.print(" ");
+		    		}else{
+		    			System.out.print("*");
+		    		}
+		    	}
+		    	System.out.println();
+		    	
+		    }else{
+		    	for(int j=0;j<=5;j++){
+		    		if(j==0||j==5)
+		    			System.out.print("*");
+		    		else
+		    			System.out.print(" ");
+		    	}
+		    	System.out.println();
+		    	
+		    }
+			
+			
+			
+			
+		}
+		
+	}
+
+}
