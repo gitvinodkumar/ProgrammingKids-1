@@ -8,5 +8,8 @@ public class Example {
 		
 		System.out.println("ajhfgjksfjkshfjkhs");
 	System.out.println("hi");
+	
+	System.out.println("helooooooooooooo basvdajsjashj");
+	System.out.println("this is rediculouse");
 	}
 }
