@@ -7,6 +7,6 @@ public class Example {
 		///////////////////////////////
 		
 		System.out.println("ajhfgjksfjkshfjkhs");
+	System.out.println("hi");
 	}
-
 }
