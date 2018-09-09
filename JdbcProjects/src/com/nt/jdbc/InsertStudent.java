@@ -8,6 +8,9 @@ public class InsertStudent {
 		System.out.println("kkjsfkjsdfasjfhsjkd");
 		//////
 		
+		System.out.println("InsertStudent.main()");
+		//////////////////////////
+		
 	}
 
 }
