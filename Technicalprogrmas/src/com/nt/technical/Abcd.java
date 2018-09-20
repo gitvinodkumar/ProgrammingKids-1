@@ -25,7 +25,7 @@ public class Abcd {
 		
 		Set<String>set=map.keySet();
 		Iterator<String>it=set.iterator();
-		for(int k=0;k<3;k++){
+		for(int k=0;k<=3;k++){
 			it=set.iterator();
 		while(it.hasNext()){
 			for(int i=0;i<26;i++){
@@ -42,6 +42,14 @@ public class Abcd {
 						
 						System.out.print(ch+ch+ch+s[j]+" ");
 					}
+                     if(k==3){
+						
+						System.out.print(ch+ch+ch+ch+s[j]+" ");
+					}
+                     if(k==4){
+ 						
+ 						System.out.print(ch+ch+ch+ch+s[j]+" ");
+ 					}
 				}
 				System.out.println();
 				;
