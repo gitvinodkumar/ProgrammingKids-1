@@ -21,7 +21,7 @@ public class PerfectNumberORNot {
 			System.out.println("this is perfect numer="+result);
 		
 		//assert (result==num):"this is prime numer";
-		System.out.println(1010/10);
+		//System.out.println(1010/10);
 	}
 
 }
