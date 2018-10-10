@@ -2,7 +2,7 @@
 public class Pattern {
 	
 	public static void main(String[] args) {
-		int count=1;
+		int count=2;
 		
 		for( int i=1;i<=3;i++){
 			
@@ -10,27 +10,28 @@ public class Pattern {
 				
 				System.out.print("  ");
 			}
-			for( int j=1;j<=count;j++){
+			for( int j=1;j<2*i;j++){
 				
 				System.out.print(" *");
 			}
 			System.out.println();
-			count=count+2;
 			
 		}
-		count=3;
-		for(int i=1;i<=3;i++){
+		
+		/*for(int i=2;i<=3;i++){
 			
-			for(int j=0;j<5-i;j++){
+			for(int j=0;j<=6-count;j++){
 				System.out.print("  ");
+				
 			}
 			
-			for(int j=count;j>=1;j--){
+			for(int j=1;j<2*count;j++){
 				System.out.print(" *");
 			}
+			count--;
 			System.out.println();
-			count=count-2;
-		}
+			
+		}*/
 		
 	}
 
