@@ -3,7 +3,7 @@ package com.nt.collections;
 public class Example {
 	
 	String s;
-	public Example(String s){
+	public Example(){
 		this.s=s;
 	}
 	

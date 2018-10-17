@@ -1,25 +1,29 @@
 package com.nt.patterns;
 
 public class PatternAbout123457 {
+	
+	
+	
+	public static void add(int a){
+		
+		
+		
+		loop:for(int i=1;i<3;i++){
+			
+			for(int j=1;j<3;j++){
+				
+				if(a==5){
+					break loop;
+				}
+				System.out.println(i*j);
+			}
+		}
+	
+	}
 
 	public static void main(String[] args) {
 		
-		
-		for(int i=1;i<=7;i++){
-			
-			for(int j=1;j<i;j++){
-				System.out.print(" ");
-			}
-			for(int j=i;j<=7;j++){
-				System.out.print(j);
-			}
-			System.out.println();
-			
-		}
-		
-		
-        
-
+		add(5);
 	}
 
 }
